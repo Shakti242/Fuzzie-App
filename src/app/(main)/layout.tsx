@@ -3,7 +3,6 @@ import React from 'react'
 
 
 type Props = { children: React.ReactNode }
-
 const Layout = (props: Props) => {
     const a = 3
     console.log(a)
