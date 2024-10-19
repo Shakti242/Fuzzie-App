@@ -4,7 +4,7 @@ import React from 'react'
 
 type Props = { children: React.ReactNode }
 const Layout = (props: Props) => {
-    const a = 2
+    const a = 3
     console.log(a)
     return (
         <div className="flex overflow-hidden h-screen">
