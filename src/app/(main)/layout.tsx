@@ -1,3 +1,4 @@
+import InfoBar from '@/components/infobar'
 import Sidebar from '@/components/sidebar'
 import React from 'react'
 // import Sidebar from '@/components/sidebar'
@@ -10,7 +11,7 @@ const Layout = (props: Props) => {
         <div className="flex overflow-hidden h-screen">
             <Sidebar />
             <div className="w-full">
-                {/* <InfoBar /> */}
+                <InfoBar />
                 {props.children}
             </div>
         </div>
