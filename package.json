@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.7.5",
+    "@clerk/nextjs": "^6.0.0",
     "@hookform/resolvers": "^3.9.0",
+    "@ngrok/ngrok": "^1.4.1",
     "@prisma/client": "^5.21.1",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@radix-ui/react-dialog": "^1.1.2",
@@ -24,7 +25,6 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
     "@uploadcare/blocks": "0.50.4",
-    "@uploadcare/react-uploader": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
@@ -34,6 +34,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.53.1",
+    "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8"

@@ -43,12 +43,12 @@ export default function Home() {
         direction="left"
         speed="fast"
       />
-       <section>
+      <section>
         <HeroParallax products={products}></HeroParallax>
       </section>
       <section className='mt-[-500px]'>
-      <LampComponent/>
-      <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
+        <LampComponent />
+        <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
           <CardContainer className="inter-var ">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
               <CardItem
