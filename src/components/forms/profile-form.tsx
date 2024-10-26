@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import React, { useEffect, useState } from 'react'
@@ -26,14 +25,12 @@ type Props = {
 
 const ProfileForm = ({ user, onUpdate }: Props) => {
   const [isLoading, setIsLoading] = useState(false)
-  
-  // Ensure user is defined before accessing properties
   const form = useForm<z.infer<typeof EditUserProfileSchema>>({
     mode: 'onChange',
     resolver: zodResolver(EditUserProfileSchema),
     defaultValues: {
-      name: user?.name || '',  // Fallback to empty string if user or name is undefined
-      email: user?.email || '', // Fallback to empty string if user or email is undefined
+      name: user.name,
+      email: user.email,
     },
   })
 
@@ -46,10 +43,7 @@ const ProfileForm = ({ user, onUpdate }: Props) => {
   }
 
   useEffect(() => {
-    if (user) {
-      // Reset form values if user is updated
-      form.reset({ name: user?.name || '', email: user?.email || '' })
-    }
+    form.reset({ name: user.name, email: user.email })
   }, [user])
 
   return (
@@ -84,7 +78,7 @@ const ProfileForm = ({ user, onUpdate }: Props) => {
               <FormControl>
                 <Input
                   {...field}
-                  disabled={true}
+                  disabled={false}
                   placeholder="Email"
                   type="email"
                 />
