@@ -41,6 +41,11 @@ A powerful **B2C SaaS** platform built from the ground up to demonstrate the int
   - A beautiful, fully functional landing page to showcase the app.  
 
 ---
+![Screenshot](https://github.com/Shakti242/Fuzzie-App/blob/master/screenshots/Screenshot%202025-01-23%20at%209.43.24%E2%80%AFPM%20(2).png)
+![Screenshot](https://github.com/Shakti242/Fuzzie-App/blob/19-10/screenshots/Screenshot%202025-01-23%20at%209.43.32%E2%80%AFPM%20(2).png)
+![Screenshot](https://github.com/Shakti242/Fuzzie-App/blob/19-10/screenshots/Screenshot%202025-01-23%20at%209.43.32%E2%80%AFPM%20(2).png)
+![Screenshot](https://github.com/Shakti242/Fuzzie-App/blob/19-10/screenshots/Screenshot%202025-01-23%20at%209.44.10%E2%80%AFPM%20(2).png)
+
 
 ## Built With  
 
