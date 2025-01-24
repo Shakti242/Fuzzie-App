@@ -67,14 +67,14 @@ A powerful **B2C SaaS** platform built from the ground up to demonstrate the int
 
 Create a .env.local file in the root directory and add the following variables:
 
-CLERK_FRONTEND_API=<your-clerk-frontend-api>
-CLERK_API_KEY=<your-clerk-api-key>
-NEON_DATABASE_URL=<your-neon-database-url>
-STRIPE_SECRET_KEY=<your-stripe-secret-key>
-GOOGLE_API_KEY=<your-google-api-key>
-NOTION_API_KEY=<your-notion-api-key>
-SLACK_API_KEY=<your-slack-api-key>
-DISCORD_API_KEY=<your-discord-api-key>
+- sCLERK_FRONTEND_API=<your-clerk-frontend-api>
+- CLERK_API_KEY=<your-clerk-api-key>
+- NEON_DATABASE_URL=<your-neon-database-url>
+- STRIPE_SECRET_KEY=<your-stripe-secret-key>
+- GOOGLE_API_KEY=<your-google-api-key>
+- NOTION_API_KEY=<your-notion-api-key>
+- SLACK_API_KEY=<your-slack-api-key>
+- DISCORD_API_KEY=<your-discord-api-key>
 
 ## Run the Development Server
 
